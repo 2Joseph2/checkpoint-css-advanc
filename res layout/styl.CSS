@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+svg {
+    width: 25px;
+    height: 25px;
+    fill: teal; 
+}
+
+#green {
+    color: rgb(0, 0, 0); 
+}
+
+#fp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: inherit; 
+    font-family: Arial, sans-serif; 
+}
+#beige{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    text-align: center; 
+}
+#tmt{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+#hhh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#box{
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(195, 195, 149);
+    color: rgb(0, 0, 0);
+}
+
+#box button{
+    background-color:rgb(168, 151, 168);
+    border: solid  3px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+#ji{
+    text-align: left;  
+}
+#logolist1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    text-align: right;     
+}
+#logolist2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    text-align: right;  
+}
+
+#sm{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec2{
+    background-color:  rgb(195, 195, 149);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+#blogo{
+    width: 500px;
+    height: 500px;
+    fill: rgb(255, 255, 255);
+    
+}
+
+#dis1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dis2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mbox{
+    background-color: rgb(170, 164, 175);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    fill: white;
+    margin: 15px;
+    
+}
+
+.hd{
+    display: flex;
+}
+img{
+    vertical-align: middle;
+}
+#img{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+.img1{
+    position: relative;
+    width: 300px;
+    box-shadow: 0 20PX 10PX rgb(0, 0, 0,0.1);
+    padding: 0px 20px;
+}
+footer{
+    display: flex;
+    text-align: center;  
+}
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(204, 195, 195, 0.5); 
+    color: rgb(0, 0, 0);
+    padding: 5px 0; 
+    
+}
+
+.btn {
+    display: flex;
+    flex-direction: row; /* Aligne le bouton et le texte horizontalement */
+    align-items: center; /* Centre le bouton et le texte verticalement */
+    margin-top: 10px; /* Ajoute de l'espace entre l'image et le texte */
+    justify-content: space-between;
+}
+
+#box1, #box2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column; /* Assure que l'image et le bouton sont en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+    margin: 10px; /* Ajoute de l'espace autour de chaque image */
+}
+
+
+.btn button {
+    margin-right: 10px; /* Ajoute de l'espace entre le bouton et le texte */
+}
+
+.caption {
+    margin: 0; 
+}
